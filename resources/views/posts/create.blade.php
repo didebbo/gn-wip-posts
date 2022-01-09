@@ -19,6 +19,7 @@
         textarea {
             width: 400px;
             height: 200px;
+            resize: none;
         }
 
     </style>
