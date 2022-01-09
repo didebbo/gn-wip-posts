@@ -1,0 +1,13 @@
+Ciao Gianluca!
+
+Se è di tuo interesse il ruolo di backend developer, come agli altri candidati, ti chiediamo lo svolgimento di un esercizio.
+Non c'è una scadenza predefinita, il tuo tempo è prezioso e avrai anche altri impegni.
+In caso di valutazione positiva ne parleremo insieme nel colloquio, in ogni caso ti daremo un report scritto di perchè possa essere comunque per te una esperienza utile.
+
+Esercizio: Utilizzando almeno un pattern di programmazione ad oggetti, implementare in PHP + MySQL un'applicazione web che registri post e commenti avendo cura di seguire le best practices in materia di sicurezza.
+
+Avendo riguardo del tuo tempo, ti invitiamo a tralasciare aspetti estetici e funzionali non espressamente richiesti (i post possono essere solo testuali e non è richiesta autenticazione degli utenti, nè stilizzazione css/interazione JS).
+
+Il metodo di consegna preferibile è la pubblicazione del codice su github/gitlab.
+
+A presto!
