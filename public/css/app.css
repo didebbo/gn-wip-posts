@@ -1,0 +1,141 @@
+body .index {
+  display: flex;
+  flex-direction: column;
+}
+
+body .index > h1 {
+  align-self: center;
+}
+
+body .index .dashboard {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1em;
+}
+
+body .index .dashboard .post {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}
+
+body .index .dashboard .post .title {
+  align-self: center;
+}
+
+body .index .dashboard .post .user {
+  align-self: flex-end;
+}
+
+body .show {
+  display: flex;
+  flex-direction: column;
+}
+
+body .show .post {
+  display: flex;
+  flex-direction: column;
+}
+
+body .show .post > * {
+  margin: 1em 0;
+}
+
+body .show .post .title {
+  align-self: center;
+}
+
+body .show .post .user {
+  align-self: flex-end;
+}
+
+body .show .comments {
+  display: flex;
+  flex-direction: column;
+}
+
+body .show .comments h3 {
+  align-self: center;
+}
+
+body .show .comments > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+}
+
+body .show .comments > ul .comment {
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body .show .comments > ul .comment .user {
+  align-self: flex-end;
+}
+
+body .show .new-comment {
+  display: flex;
+  flex-direction: column;
+}
+
+body .show .new-comment h3 {
+  align-self: center;
+}
+
+body .show .new-comment ul {
+  margin: 0;
+  padding: 1em;
+  list-style: none;
+}
+
+body .show .new-comment ul > li {
+  margin: 1em 0;
+}
+
+body .show .new-comment ul > li label span {
+  display: inline-block;
+  width: 5em;
+}
+
+body .show .new-comment ul > li label textarea {
+  width: 400px;
+  height: 200px;
+  resize: none;
+}
+
+body .create {
+  display: flex;
+  flex-direction: column;
+}
+
+body .create form {
+  display: flex;
+  flex-direction: column;
+}
+
+body .create form ul {
+  margin: 0;
+  padding: 1em;
+  list-style: none;
+}
+
+body .create form ul > li {
+  margin: 1em 0;
+}
+
+body .create form ul > li label span {
+  display: inline-block;
+  width: 5em;
+}
+
+body .create form ul > li label textarea {
+  width: 400px;
+  height: 200px;
+  resize: none;
+}
+

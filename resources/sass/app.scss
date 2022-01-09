@@ -1,1 +1,119 @@
-//
+body {
+    .index {
+        display: flex;
+        flex-direction: column;
+        > h1 {
+            align-self: center;
+        }
+        .dashboard {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 1em;
+            .post {
+                display: flex;
+                flex-direction: column;
+                margin: 1em 0;
+                .title {
+                    align-self: center;
+                }
+                .user {
+                    align-self: flex-end;
+                }
+            }
+        }
+    }
+    .show {
+        display: flex;
+        flex-direction: column;
+        .post {
+            display: flex;
+            flex-direction: column;
+            > * {
+                margin: 1em 0;
+            }
+            .title {
+                align-self: center;
+            }
+            .user {
+                align-self: flex-end;
+            }
+        }
+        .comments {
+            display: flex;
+            flex-direction: column;
+            h3 {
+                align-self: center;
+            }
+            > ul {
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                margin: 0;
+                padding: 1em;
+                .comment {
+                    margin: 1em 0;
+                    display: flex;
+                    flex-direction: column;
+                    .user {
+                        align-self: flex-end;
+                    }
+                }
+            }
+        }
+        .new-comment {
+            display: flex;
+            flex-direction: column;
+            h3 {
+                align-self: center;
+            }
+            ul {
+                margin: 0;
+                padding: 1em;
+                list-style: none;
+                > li {
+                    margin: 1em 0;
+                    label {
+                        span {
+                            display: inline-block;
+                            width: 5em;
+                        }
+                        textarea {
+                            width: 400px;
+                            height: 200px;
+                            resize: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .create {
+        display: flex;
+        flex-direction: column;
+        form {
+            display: flex;
+            flex-direction: column;
+            ul {
+                margin: 0;
+                padding: 1em;
+                list-style: none;
+                > li {
+                    margin: 1em 0;
+                    label {
+                        span {
+                            display: inline-block;
+                            width: 5em;
+                        }
+                        textarea {
+                            width: 400px;
+                            height: 200px;
+                            resize: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
