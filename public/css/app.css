@@ -16,6 +16,8 @@ body .index .dashboard {
 }
 
 body .index .dashboard .post {
+  border-top: 0.2em solid rgba(0, 0, 0, 0.5);
+  border-bottom: 0.2em solid rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   margin: 1em 0;
@@ -35,6 +37,7 @@ body .show {
 }
 
 body .show .post {
+  padding: 1em;
   display: flex;
   flex-direction: column;
 }
@@ -69,6 +72,8 @@ body .show .comments > ul {
 }
 
 body .show .comments > ul .comment {
+  border-top: 0.2em solid rgba(0, 0, 0, 0.5);
+  border-bottom: 0.2em solid rgba(0, 0, 0, 0.5);
   margin: 1em 0;
   display: flex;
   flex-direction: column;
